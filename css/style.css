@@ -1,7 +1,8 @@
 :root{
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
-    --navbar-width: 12rem;
+    --navbar-width: 12.5rem;
+    --text-color: #7e898b;
 }
 
 body{
@@ -18,6 +19,7 @@ main{
 
 a{
     text-decoration: none;
+    color: var(--text-color);
 }
 
 ul{
@@ -26,13 +28,16 @@ ul{
     padding: 0;
 }
 
+i{
+    color: var(--text-color);
+}
+
 .navbar{
     width: var(--navbar-width);
     height: 100vh;
     position: fixed;
     background-color: rgb(255, 255, 255);
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-
 }
 
 .navbar-nav{
@@ -46,13 +51,26 @@ ul{
 }
 
 .nav-item {
+    font-size: 0.85rem;
+    font-weight: bold;
     width: 100%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    /* background-color: red; */
 }
 
 .nav-item:last-child{
-    background-color: aquamarine;
     margin-top: auto;
+    margin-bottom: 2rem;
 }
+
+.nav-item:hover,
+.nav-item:hover .link-text,
+.nav-item:hover .material-icons{
+    background-color: #2b534c;
+    color: white;
+}
+
 
 .logo{
     font-size: 2rem;
@@ -75,12 +93,11 @@ ul{
     display: flex;
     align-items: center;
     height: 2rem;
-    background-color: red;
     padding-left: 1rem;
 }
 
 .link-text{
-    color: rgb(24, 24, 24);
+    /* color: inherit; */
     /* display: none; */
     margin-left: 1rem;
 }
