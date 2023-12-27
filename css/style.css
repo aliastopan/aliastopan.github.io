@@ -55,12 +55,19 @@ i{
 }
 
 .navbar ul ul{
+    display: none;
     position: absolute;
-    top: -0.5rem;
+    top: 0rem;
     left: var(--navbar-width);
-    background-color: red;
-    width: var(--navbar-width);
-    /* display: none; */
+    background-color: white;
+    /* background-color: red; */
+    width: 16rem;
+    /* width: var(--navbar-width) * 2; */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    /* box-shadow: -2px -2px -5px rgba(0, 0, 0, 0.1); */
+    /* box-shadow: inset 2px 0px 5px 0px rgba(0, 0, 0, 0.1); */
+
+
 }
 
 .navbar ul .nav-dropdown{
@@ -109,6 +116,21 @@ i{
     fill: white
 }
 
+.nav-item-inner{
+    font-size: 0.85rem;
+    font-weight: normal;
+    padding-left: 0.25rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.nav-item-inner:hover{
+    background-color: #2b534c;
+}
+
+.nav-item-inner:hover .link-text-inner{
+    color: white;
+}
 
 .nav-link svg path {
     fill: var(--accent-color)
