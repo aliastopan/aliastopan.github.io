@@ -127,3 +127,17 @@ i{
     margin: 0;
     padding: 0;
 }
+
+.bg-home {
+    margin-top: 5rem;
+    background-position: center center;
+    background-image: url('/images/converage.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    height: 50vh;
+}
+
+.container{
+    /* background-color: rebeccapurple; */
+}
