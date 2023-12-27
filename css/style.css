@@ -23,6 +23,7 @@ h2{
     padding: 0;
     margin-top: 0;
     margin-bottom: 1.5rem;
+    font-weight: 300;
 }
 
 main{
@@ -140,7 +141,7 @@ i{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center bottom;
-    height: 60vh;
+    height: 75vh;
     /* opacity: 0.5; */
 }
 
@@ -177,7 +178,7 @@ i{
 
 .user-username{
     font-size: 1.25rem;
-    font-weight: 900;
+    font-weight: 800;
     /* color: var(--text-color-darker); */
     color: #3e3f3e;
 }
