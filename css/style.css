@@ -136,3 +136,17 @@ i{
     height: 60vh;
     /* opacity: 0.5; */
 }
+
+.user-icon path{
+    fill: #2b534c;
+}
+
+.circle {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background-color: rgb(241, 241, 241); /* Optional background color */
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+}
