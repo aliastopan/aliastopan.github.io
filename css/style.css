@@ -129,11 +129,10 @@ i{
 }
 
 .bg-home {
-    margin-top: 5rem;
-    background-position: center center;
-    background-image: url('/images/coverage.png');
+    background-image: url('/images/coverage-50.png');
     background-size: contain;
     background-repeat: no-repeat;
-    opacity: 0.5;
-    height: 50vh;
+    background-position: center bottom;
+    height: 60vh;
+    /* opacity: 0.5; */
 }
