@@ -1,7 +1,7 @@
 :root{
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
-    --navbar-width: 10rem;
+    --navbar-width: 12rem;
 }
 
 body{
@@ -43,12 +43,10 @@ ul{
     flex-direction: column;
     align-items: center;
     height: 100%;
-    background-color: grey;
 }
 
 .nav-item {
     width: 100%;
-    background-color: rgb(74, 167, 221);
 }
 
 .nav-item:last-child{
@@ -60,20 +58,29 @@ ul{
     font-size: 2rem;
     font-weight: bold;
     text-transform: uppercase;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-    margin-left: 2.25rem;
     text-align: center;
     width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.logo-icon{
+    width: 5rem; /* Set the width of the logo */
+    height: auto; /* Maintain the aspect ratio */
+    margin: 0;
+    padding: 0;
 }
 
 .nav-link{
     display: flex;
     align-items: center;
     height: 2rem;
+    background-color: red;
+    padding-left: 1rem;
 }
 
 .link-text{
+    color: rgb(24, 24, 24);
     /* display: none; */
     margin-left: 1rem;
 }
