@@ -131,13 +131,9 @@ i{
 .bg-home {
     margin-top: 5rem;
     background-position: center center;
-    background-image: url('/images/converage.png');
+    background-image: url('/images/coverage.png');
     background-size: contain;
     background-repeat: no-repeat;
     opacity: 0.5;
     height: 50vh;
-}
-
-.container{
-    /* background-color: rebeccapurple; */
 }
