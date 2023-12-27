@@ -106,8 +106,7 @@ i{
 }
 
 .nav-item:hover,
-.nav-item:hover .link-text,
-.nav-item:hover .material-icons{
+.nav-item:hover .link-text{
     background-color: #2b534c;
     color: white;
 }
