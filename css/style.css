@@ -94,7 +94,7 @@ i{
     align-items: center;
     align-content: center;
     height: 2rem;
-    padding-left: 1rem;
+    padding-left: 1.25rem;
 }
 
 .nav-item:hover .nav-link svg{
