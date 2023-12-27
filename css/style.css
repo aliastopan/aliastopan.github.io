@@ -1,15 +1,21 @@
 :root{
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     --navbar-width: 12.5rem;
     --text-color: #7e898b;
+    --text-color-darker: #464d4e;
+    --text-color-light: #9ea4a7;
+    --text-color-bright: #d6d6d6;
+    --accent-color: #2b534c
+
+    --navbar-text-color: #788486
 }
 
 body{
-    color: black;
-    background-color: white;
     margin: 0;
     padding: 0;
+    color: black;
+    background-color: white;
 }
 
 main{
@@ -22,7 +28,7 @@ a{
     color: var(--text-color);
 }
 
-ul{
+ul, li{
     list-style: none;
     margin: 0;
     padding: 0;
@@ -52,16 +58,19 @@ i{
 
 .nav-item {
     font-size: 0.85rem;
-    font-weight: bold;
+    font-weight: normal;
     width: 100%;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    /* background-color: red; */
 }
 
 .nav-item:last-child{
     margin-top: auto;
     margin-bottom: 2rem;
+}
+
+.nav-icon{
+    font-size: 24px;
 }
 
 .nav-item:hover,
@@ -71,6 +80,36 @@ i{
     color: white;
 }
 
+.nav-item:hover .nav-link svg path{
+    fill: white
+}
+
+
+.nav-link svg path {
+    fill: var(--accent-color)
+}
+
+.nav-link{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    height: 2rem;
+    padding-left: 1rem;
+}
+
+.nav-item:hover .nav-link svg{
+    fill: #bdcecb; /* Set the fill color */
+
+}
+
+.nav-link svg{
+    fill: #bdcecb; /* Set the fill color */
+}
+
+.link-text{
+    color: var(--accent-color);
+    margin-left: 1rem;
+}
 
 .logo{
     font-size: 2rem;
@@ -87,17 +126,4 @@ i{
     height: auto; /* Maintain the aspect ratio */
     margin: 0;
     padding: 0;
-}
-
-.nav-link{
-    display: flex;
-    align-items: center;
-    height: 2rem;
-    padding-left: 1rem;
-}
-
-.link-text{
-    /* color: inherit; */
-    /* display: none; */
-    margin-left: 1rem;
 }
