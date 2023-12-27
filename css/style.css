@@ -54,6 +54,23 @@ i{
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
 }
 
+.navbar ul ul{
+    position: absolute;
+    top: -0.5rem;
+    left: var(--navbar-width);
+    background-color: red;
+    width: var(--navbar-width);
+    /* display: none; */
+}
+
+.navbar ul .nav-dropdown{
+    position: relative;
+}
+
+.navbar ul .nav-dropdown:hover ul{
+    display: initial;
+}
+
 .navbar-nav{
     list-style: none;
     margin: 0;
