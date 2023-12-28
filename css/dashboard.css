@@ -255,4 +255,75 @@ tr:hover {
     background-color: #292929;
     color: white;
     border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.on-call-called{
+    padding: 0px 10px;
+    background-color: #4595f1;
+    color: white;
+    border-radius: 3px;
+}
+
+.on-call-not-yet-called{
+    padding: 0px 10px;
+    background-color: #f15945;
+    color: white;
+    border-radius: 3px;
+}
+
+.on-call-waiting{
+    padding: 0px 10px;
+    background-color: #e7db37;
+    border-radius: 3px;
+}
+
+.confirmation-done{
+    padding: 0px 10px;
+    background-color: #4595f1;
+    color: white;
+    border-radius: 3px;
+}
+
+.confirmation-not-yet-called{
+    padding: 0px 10px;
+    background-color: #f15945;
+    color: white;
+    border-radius: 3px;
+}
+
+.confirmation-waiting{
+    padding: 0px 10px;
+    background-color: #e7db37;
+    border-radius: 3px;
+}
+
+.approval-rejected{
+    padding: 0px 10px;
+    background-color: #f15945;
+    color: white;
+    border-radius: 3px;
+}
+
+.approval-approved{
+    padding: 0px 10px;
+    background-color: #4595f1;
+    color: white;
+    border-radius: 3px;
+}
+
+.approval-open{
+    padding: 0px 10px;
+    background-color: #8ff53c;
+    border-radius: 3px;
+}
+
+.approval-status-lost-close{
+    padding: 0px 10px;
+    background-color: #000000;
+    color: white;
+    border-radius: 3px;
 }
