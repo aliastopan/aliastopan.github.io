@@ -26,6 +26,10 @@ h2{
     font-weight: 300;
 }
 
+h3{
+    font-weight: 300;
+}
+
 main{
     margin-left: var(--navbar-width);
     padding: 2rem;
