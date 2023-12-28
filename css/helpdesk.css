@@ -13,3 +13,40 @@
     border-top: 1px solid #f0f0f0;
     width: 30rem;
 }
+
+.validation-button{
+    margin-top: 1rem;
+    font-weight: normal;
+    font-size: 16px;
+    height: 24px;
+}
+
+
+/* Set width as a percentage of the parent container */
+.button-container {
+    width: 10rem; /* Set the width of the container */
+    margin-right: 1rem;
+}
+
+.button-container button {
+    width: 100%; /* Set the button width to 100% of the container */
+}
+
+.button-container-small {
+    width: 5rem; /* Set the width of the container */
+    margin-right: 1rem;
+}
+
+.clipboard-button{
+    margin-top: 1rem;
+    font-weight: normal;
+    font-size: 16px;
+    height: 24px;
+    background-color: #bdbdbd;
+    color: #7e7d7d;
+}
+
+.clipboard-button:hover{
+    background-color: #e4e4e4;
+    color: #7e7d7d;
+}

@@ -85,6 +85,7 @@ select{
 
 /* Basic Button Styling */
 button {
+    position: relative;
     padding: 0px 16px;
     font-size: 16px;
     border: none;
@@ -348,4 +349,30 @@ tr:hover {
 /* Add this style to hide columns initially */
 .hide-column {
     display: none;
+}
+
+.not-available{
+    padding: 0px 10px;
+    background-color: #f37070;
+    color: white;
+    border-radius: 3px;
+}
+
+/* Hide the tooltip by default */
+.tooltip {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    color: #686868;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    white-space: nowrap;
+    top: -20px;
+    right: -120px;
+}
+
+/* Show the tooltip when hovering over the button */
+button:hover .tooltip {
+    display: block;
 }

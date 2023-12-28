@@ -6,7 +6,7 @@
     --text-color-darker: #464d4e;
     --text-color-light: #9ea4a7;
     --text-color-bright: #d6d6d6;
-    --accent-color: #2b534c
+    --accent-color: #2b534c;
 
     --navbar-text-color: #788486
 }
@@ -49,6 +49,42 @@ ul, li{
 i{
     color: var(--text-color);
 }
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid var(--accent-color);
+    border-radius: 5px;
+    color: var(--accent-color);
+    background-color: #fff;
+    transition: background-color 0.3s, color 0.3s;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+  /* Hover effect */
+  button:hover {
+    background-color: var(--accent-color);
+    color: #fff;
+  }
+
+  /* Active state */
+  button:active {
+    transform: scale(0.95);
+  }
+
+  /* Disabled state */
+  button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
 
 .navbar{
     width: var(--navbar-width);
