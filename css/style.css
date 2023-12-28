@@ -52,6 +52,7 @@ i{
     position: fixed;
     background-color: rgb(255, 255, 255);
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 999;
 }
 
 .navbar ul ul{
