@@ -11,10 +11,10 @@
     --navbar-text-color: #788486
 }
 
-* {
+/* * {
     margin: 0;
     padding: 0;
-}
+} */
 
 body{
     margin: 0;
@@ -55,6 +55,10 @@ ul, li{
 
 i{
     color: var(--text-color);
+}
+
+label{
+    margin-bottom: 0;
 }
 
 button {
