@@ -202,8 +202,35 @@ tr:hover {
     border-radius: 3px;
 }
 
-.approval-status{
+.approval-status-open{
     padding: 0px 10px;
-    background-color: #3cf574;
+    background-color: #8ff53c;
+    border-radius: 3px;
+}
+
+.approval-status-waiting-confirmation{
+    padding: 0px 10px;
+    background-color: #e7db37;
+    border-radius: 3px;
+}
+
+.approval-status-approved{
+    padding: 0px 10px;
+    background-color: #4595f1;
+    color: white;
+    border-radius: 3px;
+}
+
+.approval-status-rejected{
+    padding: 0px 10px;
+    background-color: #f15945;
+    color: white;
+    border-radius: 3px;
+}
+
+.approval-status-lost-close{
+    padding: 0px 10px;
+    background-color: #292929;
+    color: white;
     border-radius: 3px;
 }
