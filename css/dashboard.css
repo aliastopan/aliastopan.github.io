@@ -327,3 +327,8 @@ tr:hover {
     color: white;
     border-radius: 3px;
 }
+
+/* Add this style to hide columns initially */
+.hide-column {
+    display: none;
+}
