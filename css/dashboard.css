@@ -224,6 +224,23 @@ tr:hover {
     border-radius: 3px;
 }
 
+.table-header-transpose th{
+    border: 1px solid #dcdfde;
+    color: #717575;
+    font-weight: normal;
+    text-align: left;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.table-header-transpose td{
+    border: 1px solid #dcdfde;
+    color: #717575;
+    width: 200rem;
+    text-align: left;
+    padding-left: 0.5rem;
+}
+
 .approval-status-open{
     padding: 0px 10px;
     background-color: #8ff53c;
