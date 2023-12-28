@@ -80,3 +80,39 @@ select{
     transform: translateY(-50%);
     pointer-events: none;
 }
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* width: 200px; */
+    box-sizing: border-box;
+  }
+
+input[type="text"]:hover,
+input[type="text"]:focus {
+    border-color: #666;
+}
+
+.input-field{
+    width: 15rem;
+    margin-right: 0.25rem;
+    /* background-color: red; */
+}
+
+.input-field-inner-label{
+    font-size: 0.8rem;
+    background-color: white;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    z-index: 90;
+}
+
+.search-container{
+    position: relative;
+    margin-right: 2rem;
+}

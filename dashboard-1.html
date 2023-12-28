@@ -85,21 +85,21 @@
         <h2>Check Status Permohonan</h2>
         <div class="flex-column">
             <div class="filter-area">
-                <div class="flex-row">
-                    <div class="flex-column">
+                <div class="flex-row"">
+                    <div class="flex-column" style="margin-right: 1rem">
                         <div class="dropdown-container">
-                            <label class="dropdown-label" for="dropdown">Regional</label>
+                            <label class="dropdown-label" for="dropdown-regional">Regional</label>
                             <div class="dropdown">
-                              <select class="dropdown-field" id="dropdown" name="regional">
+                              <select class="dropdown-field" id="dropdown-regional" name="regional">
                                 <option value="all_regional">Semua Regional</option>
                                 <option value="jawa_timur">Jawa Timur</option>
                               </select>
                             </div>
                         </div>
                         <div class="dropdown-container">
-                            <label class="dropdown-label" for="dropdown"">Kantor Perwalian</label>
+                            <label class="dropdown-label" for="dropdown-office">Kantor Perwalian</label>
                             <div class="dropdown">
-                              <select class="dropdown-field" id="dropdown" name="regional">
+                              <select class="dropdown-field" id="dropdown-office" name="regional">
                                 <option value="all_regional">Semua Kantor Perwalian</option>
                                 <option value="surabaya">Surabaya</option>
                                 <option value="malang">Malang</option>
@@ -108,11 +108,15 @@
                               </select>
                             </div>
                         </div>
-
                     </div>
-
-                    <div>
-                        search bar
+                    <div class="flex-row">
+                        <div class="search-container">
+                            <label class="dropdown-label" for="search-input"">Id Permohonan</label>
+                            <form action="/search" method="get">
+                                <input class="input-field" type="text" id="search-input" name="q" placeholder="Cari...">
+                                <!-- <i class="material-icons search-icon">search</i> -->
+                            </form>
+                          </div>
                     </div>
                 </div>
             </div>
