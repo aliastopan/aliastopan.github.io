@@ -41,6 +41,7 @@ select{
 .table-area{
     width: 100%;
     margin-top: 1rem;
+    padding-top: 1rem;
     /* background-color: #3f494b; */
     /* height: auto; */
 }
@@ -142,4 +143,67 @@ input[type="text"]:focus {
 
 .search-bar{
     width: 25rem;
+}
+
+table, th, td {
+    font-size: 12px; /* Adjust the font size as needed */
+  }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    white-space: nowrap;
+    border-radius: 3px; /* Add border radius to the entire table */
+    overflow: hidden; /* Ensure rounded corners are visible */
+}
+
+
+th, td {
+    padding: 3px;
+    border: 1px solid #ddd;
+    text-align: left;
+    white-space: nowrap;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Alternate row coloring */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Hover effect on rows */
+tr:hover {
+    background-color: #e5e5e5;
+}
+
+.table-header th{
+    border: 1px solid #dcdfde;
+    color: #717575;
+}
+
+.date{
+    padding: 0px 5px;
+    background-color: #c0d6eb;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.time{
+    padding: 0px 5px;
+    background-color: #ebcec0;
+    border-radius: 3px;
+}
+
+.approval-status{
+    padding: 0px 10px;
+    background-color: #3cf574;
+    border-radius: 3px;
 }
