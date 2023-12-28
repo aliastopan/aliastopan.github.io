@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dashboard.css">
 </head>
 <body>
     <nav class="navbar">
@@ -82,8 +83,26 @@
     </nav>
     <main>
         <h2>Check Status Permohonan</h2>
-        <div class="flex-row">
-            content
+        <div class="flex-column">
+            <div class="filter-area">
+                <div class="flex-row">
+                    <div class="dropdown-container">
+                        <label class="dropdown-label" for="dropdown">Regional</label>
+                        <div class="dropdown">
+                          <select class="dropdown-field" id="dropdown" name="regional">
+                            <option value="all_regional">Semua Regional</option>
+                            <option value="jawa_timur">Jawa Timur</option>
+                          </select>
+                        </div>
+                    </div>
+                    <div>
+                        search bar
+                    </div>
+                </div>
+            </div>
+            <div class="table-area">
+                table area
+            </div>
         </div>
     </main>
 </body>
