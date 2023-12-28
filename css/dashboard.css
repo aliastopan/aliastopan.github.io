@@ -34,13 +34,14 @@ select{
 .filter-area{
     /* background-color: #bd7979; */
     width: 100%;
-    height: 13.5rem;
+    height: 8.5rem;
     border-bottom: 1px solid #f0f0f0;
 }
 
 .table-area{
-    background-color: #3f494b;
     width: 100%;
+    margin-top: 1rem;
+    /* background-color: #3f494b; */
     /* height: auto; */
 }
 
@@ -121,7 +122,6 @@ input[type="text"]:focus {
 .input-field{
     width: 15rem;
     margin-right: 0.25rem;
-    /* background-color: red; */
 }
 
 .input-field-inner-label{
