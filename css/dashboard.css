@@ -81,6 +81,29 @@ select{
     pointer-events: none;
 }
 
+/* Basic Button Styling */
+button {
+    padding: 0px 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #2b534c;
+    color: #ffffff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+button:hover {
+    background-color: #3e796f;
+}
+
+button:active {
+    background-color: #2c776b;
+}
+
 input[type="text"] {
     padding: 10px;
     font-size: 16px;
@@ -115,4 +138,8 @@ input[type="text"]:focus {
 .search-container{
     position: relative;
     margin-right: 2rem;
+}
+
+.search-bar{
+    width: 25rem;
 }
