@@ -39,5 +39,70 @@
 }
 
 .table-wrapper-home{
-    
+    margin-bottom: 1rem;
+}
+
+.card{
+    padding: 1rem;
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius:3px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    -ms-border-radius:3px;
+    -o-border-radius:3px;
+}
+
+table thead tr th{
+    color: rgb(116, 116, 116);
+}
+
+.badge-yellow{
+    padding: 0px 10px;
+    background-color: #e7db37;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.badge-red{
+    padding: 0px 10px;
+    background-color: #f15945;
+    color: white;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.badge-blue{
+    padding: 0px 10px;
+    background-color: #4595f1;
+    color: white;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.badge-green{
+    padding: 0px 10px;
+    background-color: #8ff53c;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.badge-black{
+    padding: 0px 10px;
+    background-color: #000000;
+    color: white;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.cs-blue{
+    color: rgb(44, 44, 44);
+    background-color: rgb(162, 210, 224);
+}
+
+.cs-blue-darker{
+    color: rgb(235, 235, 235);
+    background-color: rgb(66, 143, 194);
 }
