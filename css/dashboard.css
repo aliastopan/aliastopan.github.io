@@ -146,8 +146,9 @@ input[type="text"]:focus {
     width: 25rem;
 }
 
+/* TABLE SIZE CONTROL */
 table, th, td {
-    font-size: 12px; /* Adjust the font size as needed */
+    font-size: 16px; /* Adjust the font size as needed */
   }
 
 table {
@@ -244,20 +245,20 @@ tr:hover {
 
 .approval-status-open{
     padding: 0px 10px;
-    background-color: #8ff53c;
+    background-color: #e7db37;
     border-radius: 3px;
 }
 
 .approval-status-waiting-confirmation{
     padding: 0px 10px;
-    background-color: #e7db37;
+    background-color: #4595f1;
+    color: white;
     border-radius: 3px;
 }
 
 .approval-status-approved{
     padding: 0px 10px;
-    background-color: #4595f1;
-    color: white;
+    background-color: #8ff53c;
     border-radius: 3px;
 }
 
@@ -375,4 +376,9 @@ tr:hover {
 /* Show the tooltip when hovering over the button */
 button:hover .tooltip {
     display: block;
+}
+
+.roboto{
+    font-family: 'Roboto Condensed';
+    font-weight: 500;
 }
