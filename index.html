@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/helpdesk.css">
 </head>
 <body>
     <nav class="navbar">
@@ -82,19 +85,78 @@
     </nav>
     <main class="bg-home">
         <h2>Home</h2>
-        <div class="flex-row">
-            <div class="user-icon-circle">
-                <svg class="user-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="width: 42px; height: 42px;">
-                    <path d="M4 22C4 17.5817 7.58172 14 12 14C16.4183 14 20 17.5817 20 22H4ZM12 13C8.685 13 6 10.315 6 7C6 3.685 8.685 1 12 1C15.315 1 18 3.685 18 7C18 10.315 15.315 13 12 13Z" fill="currentColor"></path>
-                </svg>
+        <div class="flex-column">
+            <div class="flex-row">
+                <div class="user-icon-circle">
+                    <svg class="user-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="width: 42px; height: 42px;">
+                        <path d="M4 22C4 17.5817 7.58172 14 12 14C16.4183 14 20 17.5817 20 22H4ZM12 13C8.685 13 6 10.315 6 7C6 3.685 8.685 1 12 1C15.315 1 18 3.685 18 7C18 10.315 15.315 13 12 13Z" fill="currentColor"></path>
+                    </svg>
+                </div>
+                <div class="user-profile">
+                    <div class="user-username">M. RIZKY MONETER</div>
+                    <!-- <div class="user-office">PT PLN ICON PLUS</div> -->
+                    <div class="user-title">Koordinator PAC</div>
+                </div>
+                <div class="user-session">
+                    ADMIN SESSION
+                </div>
             </div>
-            <div class="user-profile">
-                <div class="user-username">M. RIZKY MONETER</div>
-                <!-- <div class="user-office">PT PLN ICON PLUS</div> -->
-                <div class="user-title">Koordinator PAC</div>
-            </div>
-            <div class="user-session">
-                ADMIN SESSION
+            <div class="set-center">
+                <div class="home-search-container">
+                    <div class="search-bar">
+                        <input class="search-bar-field" type="text" id="search-input" name="q" placeholder="Id Permohonan">
+                        <!-- <i class="material-icons search-icon">search</i> -->
+                        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="width: 24px; height: 24px;">
+                            <path d="M18.031 16.6168L22.3137 20.8995L20.8995 22.3137L16.6168 18.031C15.0769 19.263 13.124 20 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20 13.124 19.263 15.0769 18.031 16.6168ZM16.0247 15.8748C17.2475 14.6146 18 12.8956 18 11C18 7.1325 14.8675 4 11 4C7.1325 4 4 7.1325 4 11C4 14.8675 7.1325 18 11 18C12.8956 18 14.6146 17.2475 15.8748 16.0247L16.0247 15.8748Z" fill="currentColor"></path>
+                        </svg>
+                    </div>
+                    <div class="table-result">
+                        <div class="table-wrapper table-wrapper-home">
+                            <table id="helpdesk-table">
+                                <thead>
+                                <tr class="table-header">
+                                    <th style="width: 120px;">ID PERMOHONAN</th>
+                                    <th style="width: 120px;">TGL PERMOHONAN</th>
+                                    <th style="width: 150px;">NAMA PEMOHON</th>
+                                    <th style="width: 120px;">ID PLN</th>
+                                    <th style="width: 120px;">NO. TELPON</th>
+                                    <th style="width: 150px;">PANGGILAN</th>
+                                    <th style="width: 150px;">KONFIRMASI PEMOHON</th>
+                                    <th style="width: 150px;">APPROVAL STATUS</th>
+                                    <th style="width: 130px;">AGING PANGGILAN</th>
+                                    <th style="width: 130px;">AGING KONFIRMASI</th>
+                                    <th style="width: 130px;">AGING APPROVAL</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>B00102312040158</td>
+                                    <td>
+                                        <span class="date">2023-12-31</span>
+                                        <span class="time">13:08</span>
+                                    </td>
+                                    <td>Joshua Subagia Putra</td>
+                                    <td>511063238000</td>
+                                    <td>+62 812-3456-7890</td>
+                                    <td>
+                                        <span class="on-call-waiting">MENUNGGU KONFIRMASI</span>
+                                    </td>
+                                    <td>
+                                        <span class="confirmation-waiting">MENUNGGU KONFIRMASI</span>
+                                    </td>
+                                    <td>
+                                        <span class="approval-open">OPEN</span>
+                                    </td>
+                                    <td>00:24:32</td>
+                                    <td>00:50:01</td>
+                                    <td>01:32:15</td>
+                                </tr>
+                                <!-- Add more rows as needed -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
